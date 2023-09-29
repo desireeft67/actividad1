@@ -10,8 +10,8 @@ function esPositivo(numero) {
 
 // calcular sumatorio
 function sumatorio(numero) {
-    let resultado = 0;
-    for (let i = 0; i <= numero; i++) {
+    var resultado = 0;
+    for (var i = 0; i <= numero; i++) {
       resultado += i;
     }
     return resultado;
@@ -19,7 +19,7 @@ function sumatorio(numero) {
   
 // pedir numero
 function pedirEntero() {
-    let numero;
+    var numero;
   
     do {
         // pedir número Entero
@@ -39,7 +39,7 @@ function pedirEntero() {
   
     // calcular el sumatorio e imprimirlo por pantalla
     const resultado = sumatorio(numero);
-    console.log(`El sumatorio del numerio ${numero} es -> ${resultado}`);
+    console.log("El sumatorio del numerio "+numero+" es -> "+ resultado);
   }
   
   pedirEntero();
