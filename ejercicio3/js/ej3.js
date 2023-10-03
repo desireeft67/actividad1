@@ -17,8 +17,8 @@ do {
 
 console.log("Has introducido el numero: "+numero);
 
-const MAXIMO = 100;
-const MINIMO = 1;
+// const MAXIMO = 100;
+// const MINIMO = 1;
 const DIVISORES = [2, 3, 5, 10];
 
 var divisoresEncontrados;
