@@ -25,7 +25,7 @@ function pedirEntero() {
         // pedir número Entero
         const entrada = prompt("Introduce un número entero positivo:");
       
-        // intentar convertir la entrada a un número entero
+        // convertir entrada a numero entero
         numero = parseInt(entrada);
   
         // es positivo??
@@ -33,7 +33,7 @@ function pedirEntero() {
             console.log(`El número introducido es: ${numero}`);
             break;
         } else {
-            console.log("Error: Debes introducir un número entero positivo válido.");
+            console.error("Error: Debes introducir un número entero positivo válido.");
         }
     } while (true);
   
