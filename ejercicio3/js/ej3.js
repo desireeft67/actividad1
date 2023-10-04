@@ -25,7 +25,7 @@ var divisoresEncontrados;
 
 for (var i=0; i < DIVISORES.length; i++){
     const divisor = DIVISORES[i];
-    if(numero% divisor === 0){
+    if(numero % divisor === 0){
         divisoresEncontrados[i] = divisor;
     }
 }

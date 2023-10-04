@@ -5,18 +5,23 @@ function validarOperador(operador) {
 
 //ver si la division esta bien hecha
 function divisionValida(dividendo, divisor) {
+    //ver so el divisor es distinto de 0
     return divisor !== 0;
 }
 //la funcion realizar para cada operacion, no entiendo pq no funciona y lo concatena
 function realizar(operando1, operando2, operacion) {
     switch(operacion){
         case '+':
+            //suma
             return operando1 + operando2;
         case '-':
+            //resta
             return operando1 - operando2;
         case '*':
+            //multiplicacion
             return operando1 * operando2;
         case '/':
+            //division
             if (!divisionValida(operando1, operando2)) {
                 return "No se puede dividir por cero.";
             }
